@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Prog::Rock::VERSION
   gem.authors       = ["Chris Cacciatore"]
   gem.email         = ["chris.cacciatore@dullahansoft.com"]
-  gem.description   = %q{Giving artist weight to your progressbars while making them super pretty.}
-  gem.summary       = %q{All freeform collection of progressbars for your console.}
+  gem.description   = %q{Giving artist weight to your progressbars and making them super pretty.}
+  gem.summary       = %q{A freeform collection of progressbars for your console.}
   gem.homepage      = "http://cacciatc.github.com/prog-rock"
 
   gem.files         = `git ls-files`.split($/)
