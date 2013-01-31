@@ -18,15 +18,40 @@ Or install it yourself as:
 
 ## Usage
 
+### Command line
+
 Wanna test out a certain special progress animation?! 
 
 Done:
 
-    prog-me bouncing_ball
+```bash
+prog-me bouncing_ball
+```
 
 Will show a bouncing ball animation for 5 seconds. Hell, you could even wrap up your favorite command:
 
-    prog-me tres_dots read
+```bash
+prog-me tres_dots read
+```
+
+### Ruby
+
+To use in your Ruby:
+
+```ruby
+require 'prog-rock'
+
+c = ProgRock::Concert.new
+
+# list all the available animations
+c.ls
+
+# play the fish animation updating each frame 0.2 seconds
+c.play :fish, 0.2
+
+# perform some long-running, back-breaking, family-making task here
+
+```
 
 ## Contributing
 
