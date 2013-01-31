@@ -1,6 +1,6 @@
 {
     "name":"tres_dots",
-    "width":3, "height":3,
+    "width":3, "height":1,
     "frames":[
         ".  ",".. ","..."
     ]
