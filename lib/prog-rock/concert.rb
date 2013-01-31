@@ -5,8 +5,8 @@ module ProgRock
     GLYPHS = {}
     class Concert
         def initialize
-	    puts Dir.pwd
-            Dir.glob("lib/prog-rock/arts-and-farts/*.json").each do |file|
+	    path = File.join(File.dirname(File.expand_path(__FILE__)), 'arts-and-farts/')
+            Dir.glob(path + "*.json").each do |file|
 		glyph = JSON.parse File.open(file,'r').readlines.join
                 GLYPHS[glyph["name"].to_sym] = glyph["frames"]
             end
