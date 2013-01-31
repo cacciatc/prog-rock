@@ -26,12 +26,20 @@ Done:
 
 ```bash
 prog-me bouncing_ball
+(*---------)
+(-*--------)
+(--*-------)
+# but of course the animation would run in place
 ```
 
-Will show a bouncing ball animation for 5 seconds. Hell, you could even wrap up your favorite command:
+Will show a bouncing ball animation for 5 seconds (I really should make some GIFs to demo). Hell, you could even wrap up your favorite command:
 
 ```bash
 prog-me tres_dots read
+.
+..
+...
+# but of course the animation would run in place
 ```
 
 ### Ruby
@@ -50,7 +58,7 @@ c.ls
 c.play :fish, 0.2
 
 # perform some long-running, back-breaking, family-making task here
-
+sleep 10
 ```
 
 ## Contributing
