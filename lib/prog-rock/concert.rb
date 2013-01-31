@@ -1,5 +1,4 @@
 require 'thread'
-require 'json'
 
 module ProgRock
     GLYPHS = {}
