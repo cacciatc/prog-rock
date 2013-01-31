@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'prog-rock/concert'
+require 'prog-rock'
 
 animation, cmd = ARGV.first || :tres_dots, ARGV.slice(1,ARGV.size-1)
 c = ProgRock::Concert.new
