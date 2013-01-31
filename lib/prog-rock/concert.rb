@@ -1,15 +1,15 @@
 require 'thread'
+require 'json'
 
 module ProgRock
-    GLYPHS = {
-        :tres_dots     => ['.  ','.. ','...'],
-        :bouncing_ball => ['(*---------)','(-*--------)','(--*-------)','(---*------)',
-                           '(----*-----)','(-----*----)','(------*---)','(-------*--)',
-                           '(--------*-)','(---------*)','(--------*-)','(-------*--)',
-                           '(------*---)','(-----*----)','(----*-----)','(---*------)',
-                           '(--*-------)','(-*--------)']
-    }
+    GLYPHS = {}
     class Concert
+        def initialize
+            Dir.glob("prog-rock/arts-and-farts/*.json").each do |file|
+                glyph = JSON.parse File.open(file,'r').readlines.join
+                GLYPHS[glyph["name"].to_sym] = glyph["frames"]
+            end
+        end
         def play glyph_name, dt = 0.15
             "#{glyph_name} not found.\n" if not GLYPHS.include? glyph_name
             frames = GLYPHS[glyph_name]

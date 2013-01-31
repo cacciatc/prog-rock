@@ -5,7 +5,7 @@ require 'prog-rock/concert'
 animation, cmd = ARGV.first || :tres_dots, ARGV.slice(1,ARGV.size-1)
 c = ProgRock::Concert.new
 
-if cmd.empty?
+if cmd.nil? or cmd.empty?
     cmd = ['sleep','5']
 end
 
