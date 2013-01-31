@@ -1,11 +1,12 @@
 require 'thread'
+require 'json'
 
 module ProgRock
     GLYPHS = {}
     class Concert
         def initialize
             Dir.glob("prog-rock/arts-and-farts/*.json").each do |file|
-                glyph = JSON.parse File.open(file,'r').readlines.join
+		glyph = JSON.parse File.open(file,'r').readlines.join
                 GLYPHS[glyph["name"].to_sym] = glyph["frames"]
             end
         end
