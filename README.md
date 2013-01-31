@@ -1,6 +1,6 @@
-# Prog::Rock
+# ProgRock
 
-TODO: Write a gem description
+Artistic, realistic, uselessly beautiful progressbars for your console.
 
 ## Installation
 
@@ -18,12 +18,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Wanna test out a certain special progress animation?! 
+
+Done:
+
+    prog-me bouncing_ball
+
+Will show a bouncing ball animation for 5 seconds. Hell, you could even wrap up your favorite command:
+
+    prog-me tres_dots read
 
 ## Contributing
 
+Submitting a new animation is easy:
+
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+3. Create a new JSON file in the art-and-farts directory that defines your animation (look at tres_dots.json to see the file's layout).
+4. Commit your changes (`git commit -am 'Add some feature'`)
+5. Push to the branch (`git push origin my-new-feature`)
+6. Create new Pull Request
