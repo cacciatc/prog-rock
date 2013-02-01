@@ -41,7 +41,6 @@ module ProgRock
                	 		end
                	 		print "\r"
 	    		ensure
-				puts "here"
 				Curses::close_screen
 	    		end    
         	end
