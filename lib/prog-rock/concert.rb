@@ -45,7 +45,6 @@ module ProgRock
 				Curses::close_screen
 	    		end    
         	end
-	   	display_thread.join
 	end
         def ls
             GLYPHS.keys.each do |key|
