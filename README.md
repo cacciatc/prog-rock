@@ -1,9 +1,15 @@
 # ProgRock
 
 I like using the terminal as much as the next guy, but is there a reason we can't spice it up?
-I am pretty sure (certain even) that only good can come from putting ASCII art animation in your progress bars.
+Even just a little? 
 
-Why you ask? Because:
+Well, I don't know about you, but when I think "spice things up" I think "ASCII art animations". 
+So here it is, the terminal spice you've been looking for. 
+European traders brought it back from half-way around the world. __Just. For. You.__
+
+Oh, and next time you start thinking, "Why the hell am I using this silly gem to put silly ASCII animations in my app?"
+
+__Remember__:
 
 * It's kinky. 
 * It's cool. 
