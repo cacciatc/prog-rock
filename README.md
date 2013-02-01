@@ -1,6 +1,13 @@
 # ProgRock
 
-Artistic, realistic, uselessly beautiful progressbars for your console.
+I like using the terminal as much as the next guy, but is there a reason we can't spice it up?
+I am pretty sure (certain even) that only good can come from putting ASCII art animation in your progress bars.
+
+Why you ask? Because:
+
+* It's kinky. 
+* It's cool. 
+* It probably won't work on windows.
 
 ## Installation
 
